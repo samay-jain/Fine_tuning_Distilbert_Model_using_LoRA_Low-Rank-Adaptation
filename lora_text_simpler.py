@@ -123,8 +123,8 @@ if __name__ == "__main__":
     # ✅ Load and prepare datasets
     # ============================
     # Subset of IMDB and AG News for binary and multiclass classification
-    dataset1 = load_dataset("imdb", split="train[:1000]")
-    dataset2 = load_dataset("ag_news", split="train[:1000]")
+    dataset1 = load_dataset("imdb", split="train[:10000]")
+    dataset2 = load_dataset("ag_news", split="train[:10000]")
     print(f"Dataset 1 size: {len(dataset1)} examples")
     print(f"Dataset 2 size: {len(dataset2)} examples")
 

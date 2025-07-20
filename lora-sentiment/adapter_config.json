@@ -21,8 +21,8 @@
   "target_modules": [
     "q_lin",
     "v_lin",
-    "out_lin",
-    "k_lin"
+    "k_lin",
+    "out_lin"
   ],
   "task_type": "SEQ_CLS"
 }
